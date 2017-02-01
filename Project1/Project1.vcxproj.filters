@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Users">
+      <UniqueIdentifier>{25206064-5a80-479b-ae02-f0681a9f7167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Administrators">
+      <UniqueIdentifier>{083e98cd-0252-4d8f-b986-33bfd6c7b567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entrance">
+      <UniqueIdentifier>{f3049ff6-7f8f-4d3d-a393-36d89d6f66d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{82d16d80-7c51-4d74-bbe2-dbb6ffae2ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MAIN file">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>MAIN file</Filter>
+    </ClCompile>
+    <ClCompile Include="Entrance.cpp">
+      <Filter>Entrance</Filter>
+    </ClCompile>
+    <ClCompile Include="Users_Functions.cpp">
+      <Filter>Users</Filter>
+    </ClCompile>
+    <ClCompile Include="Admins_Functions.cpp">
+      <Filter>Administrators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\md5.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entrance.h">
+      <Filter>Entrance</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers.h">
+      <Filter>MAIN file</Filter>
+    </ClInclude>
+    <ClInclude Include="Users_Functions.h">
+      <Filter>Users</Filter>
+    </ClInclude>
+    <ClInclude Include="Admins_Functions.h">
+      <Filter>Administrators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
